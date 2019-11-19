@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @RequestMapping("home")
     public String hello() {
-        System.out.println(1);
+        System.out.println(11);
         return "hello spring boot!";
     }
 }
