@@ -22,4 +22,12 @@ public class MallUserController {
         System.out.println(mallUser);
         return mallUser;
     }
+    @GetMapping("/doLogin")
+    public String Login() {
+        return "doLogin";
+    }
+    @GetMapping("/doRegister")
+    public String register() {
+        return "doRegister";
+    }
 }
