@@ -34,8 +34,4 @@ public class MallUserController {
     public String Login() {
         return "doLogin";
     }
-    @GetMapping("/doRegister")
-    public String register() {
-        return "doRegister";
-    }
 }
